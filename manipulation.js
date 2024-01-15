@@ -22,7 +22,9 @@ lists[2].textContent = myName.toUpperCase()
 lists[3].textContent = myName.toLowerCase()
 lists[4].textContent = myName.charAt(3)
 lists[5].textContent = newSubString
-lists[6].innerHTML = myName.replace('amin')
+lists[6].innerHTML = myName.replace('amin', 'ozovehe')
+lists[7].innerHTML = myName.replace('amin', 'ozovehe')
+
 
 
 
