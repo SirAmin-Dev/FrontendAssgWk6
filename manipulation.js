@@ -42,6 +42,8 @@ lists[6].innerHTML = `Al-${myOtherName}`
 lists[7].textContent = myUpdatedName
 lists[8].textContent = myUpdatedName.indexOf('e')
 lists[9].textContent = myName.concat(anotherString)
+lists[10].textContent = oper
+
 
 
 // Arithmetic and Comparison Operators
@@ -65,5 +67,10 @@ console.log(d)
 let e = num1 % num2
 console.log(e)
 
+lists[11].innerHTML = 'num1 + num2 is ' + a
+lists[12].innerHTML = 'num3 - num2 is ' + b
+lists[13].innerHTML = 'num3 * num2 is ' + c
+lists[14].innerHTML = 'num3 / num2 is ' + d
+lists[15].innerHTML = 'num1 % num2 is ' + e
 
 
